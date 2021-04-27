@@ -18,6 +18,7 @@ main {
     height: 100vh;
 }h2 {
     margin-bottom: 50px;
+    color: #0870a6;
 }
 label {
     margin-bottom: 10px;
@@ -29,6 +30,7 @@ input[type = text] {
     padding-left: 5px;
     border: none;
     border-radius: 8px;
+    color: #0870a6;
 }
 
 button {
@@ -59,6 +61,8 @@ input[type = text] {
 }
 #ticket_price {
     padding-top: 5px;
+    font-size: 27px;
+    font-weight: 700;
     color: red;
 }
 .ticket {   
