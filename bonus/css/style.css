@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}h2 {
+    margin-bottom: 50px;
+}
+label {
+    margin-bottom: 10px;
+}
+
+input[type = text] {
+    height: 20px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    border: none;
+    border-radius: 8px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 5px 0;
+    color: #0870a6;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    transition: .3s;
+}
+button:hover {
+    color: #fff;
+    background-color: #0870a6;
+    cursor: pointer;
+}
+
+button,
+input[type = text] {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
+
+.price_box {
+    position: absolute;
+    left: 26px;
+    bottom: 70px;
+}
+#ticket_price {
+    padding-top: 5px;
+    color: red;
+}
+.ticket {   
+    display: flex;
+    justify-content: center; 
+    position: relative;
+    width: 1000px;
+    height: 407px;
+    padding-top: 110px;
+    background-image: url("../img/ticket.png");
+    background-repeat: no-repeat;
+}
+.input_form {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
